@@ -6,7 +6,7 @@ Love_Prediction Using HPC and Monte Carlo Simulation
    module load Mamba/23.11.0-0
    python3 -m venv ~/love_prediction/love-montecarlo-env
 4. เรียกใช้งาน Python Environment ที่เราสร้างขึ้น
-   source ~/love_prediction/love-montecarlo-env/bin/activate
+   source ~/love_prediction/love-montecarlo-env/bin/activate (ตัวอย่าง Path เรียก)
 5. นำโค้ด love_simulation.py ไปเขียนในโฟลเดอร์
 6. สร้าง SLURM scipt สำหรับส่งงานไปรัน
    
