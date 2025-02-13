@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def simulate_love(num_simulations=100000):
+def simulate_love(num_simulations):
     success_count = 0
     results = []
 
@@ -20,7 +20,6 @@ def simulate_love(num_simulations=100000):
     prob_love = success_count / num_simulations
     return prob_love, results
 
-# รันการจำลอง 100,000 ครั้ง
 num_simulations = 100000
 prob_love, results = simulate_love(num_simulations)
 
