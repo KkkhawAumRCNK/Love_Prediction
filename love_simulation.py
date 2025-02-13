@@ -7,9 +7,9 @@ def simulate_love(num_simulations):
 
     for _ in range(num_simulations):
         # ความน่าจะเป็นของปัจจัยต่าง ๆ ในความรัก (สมมุติ)
-        chance_meeting = np.random.rand() < 0.7  # โอกาสได้เจอคนที่ถูกใจ 70%
-        mutual_interest = np.random.rand() < 0.5  # โอกาสที่ชอบกันทั้งคู่ 50%
-        timing_right = np.random.rand() < 0.6  # โอกาสที่จังหวะชีวิตลงตัว 60%
+        chance_meeting = np.random.rand() < 0.7  # โอกาสได้เจอคนที่ถูกใจ 30%
+        mutual_interest = np.random.rand() < 0.5  # โอกาสที่ชอบกันทั้งคู่ 20%
+        timing_right = np.random.rand() < 0.6  # โอกาสที่จังหวะชีวิตลงตัว 50%
 
         # ถ้าทั้ง 3 เงื่อนไขเป็นจริง = ความรักสำเร็จ
         success = chance_meeting and mutual_interest and timing_right
